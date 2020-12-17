@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D00456A3-7318-6F16-E1B0-B128D1E6E9AB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Grids.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Grids.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IsometricTilemap" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7566967d-2591-41d6-a940-227a90e623fd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

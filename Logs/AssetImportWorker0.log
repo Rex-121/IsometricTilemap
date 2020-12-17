@@ -1,0 +1,1813 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tyrant/Unity/IsometricTilemap
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50197
+Successfully changed project path to: /Users/tyrant/Unity/IsometricTilemap
+/Users/tyrant/Unity/IsometricTilemap
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1c1 (f2fe8b73675a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tyrant/Unity/IsometricTilemap/Assets
+GfxDevice: creating device client; threaded=0
+2020-12-17 04:25:51.706 Unity[1566:35222] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+2020-12-17 04:25:51.706 Unity[1566:35222] Metal devices available: 2
+2020-12-17 04:25:51.706 Unity[1566:35222] 0: AMD Radeon Pro 5500M (high power)
+2020-12-17 04:25:51.706 Unity[1566:35222] 1: Intel(R) UHD Graphics 630 (low power)
+2020-12-17 04:25:51.706 Unity[1566:35222] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56566
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000440 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 27.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.0f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.9 MB.
+System memory in use after: 143.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.401960 ms (FindLiveObjects: 0.242801 ms CreateObjectMapping: 0.096790 ms MarkObjects: 1.925762 ms  DeleteObjects: 0.135278 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources
+  artifactKey: Guid(f82a2a00b818c4d5f9e809b2dbd92eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(f82a2a00b818c4d5f9e809b2dbd92eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2801e2134ece9e94cb22a8b40dfe589a') in 0.005302 seconds
+  Import took 0.009004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.833790 seconds.
+  path: Assets/Pallet
+  artifactKey: Guid(ab07dfb946d364db4b72c29c398aa8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet using Guid(ab07dfb946d364db4b72c29c398aa8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141bf8fc6d78a7415a8ee626df11e269') in 0.001410 seconds
+  Import took 0.004569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.907371 seconds.
+  path: Assets/Tiles
+  artifactKey: Guid(2210df3bcc01b456dabbc38bad82c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles using Guid(2210df3bcc01b456dabbc38bad82c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87303136b81553dcd123339f95a5a1b3') in 0.001553 seconds
+  Import took 0.004292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.810239 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_01.png
+  artifactKey: Guid(d57659605921b4bfeb2369125c4daa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_01.png using Guid(d57659605921b4bfeb2369125c4daa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c260b77de4c7e62f332c108aa5ab25af') in 1.124794 seconds
+  Import took 1.127791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_39.png
+  artifactKey: Guid(130683add62fb42ecbc4e352f19f22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_39.png using Guid(130683add62fb42ecbc4e352f19f22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec630dae87f150f14eb9643088fa113') in 0.007739 seconds
+  Import took 0.010068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_26.png
+  artifactKey: Guid(847d411737e3c421ca5a6f7496aa6a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_26.png using Guid(847d411737e3c421ca5a6f7496aa6a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02df30b4e99c0f884a5aa0cd590d45a') in 0.005281 seconds
+  Import took 0.007842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_32.png
+  artifactKey: Guid(90edb20fd24d14bf9836cc7a19440f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_32.png using Guid(90edb20fd24d14bf9836cc7a19440f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1112526ddbe1fba34d4bde3db7d31b') in 0.005664 seconds
+  Import took 0.008077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_25.png
+  artifactKey: Guid(ccd392dcbf1c54ffcbc7ac66ce6b597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_25.png using Guid(ccd392dcbf1c54ffcbc7ac66ce6b597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debecc41134b686849cf57699f3890e8') in 0.005547 seconds
+  Import took 0.008051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_03.png
+  artifactKey: Guid(72851541978484b6181a47176c5e1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_03.png using Guid(72851541978484b6181a47176c5e1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e9cbbc7e930390331db26de3cc8d1c') in 0.006295 seconds
+  Import took 0.009054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_37.png
+  artifactKey: Guid(8053d12509056401d84714dc0d7c74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_37.png using Guid(8053d12509056401d84714dc0d7c74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642e70bfe6345df0d7bf793f38b4cb01') in 0.007527 seconds
+  Import took 0.010115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_04.png
+  artifactKey: Guid(2ad2c8a691303495cb1a4ddeda029649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_04.png using Guid(2ad2c8a691303495cb1a4ddeda029649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff626653b675cb34e98a21fb585f55c') in 0.005930 seconds
+  Import took 0.008503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_09.png
+  artifactKey: Guid(0a11d3a808c144620a9fb7d92ee41b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_09.png using Guid(0a11d3a808c144620a9fb7d92ee41b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d526dda227f8427503f12103c946451') in 0.007159 seconds
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_21.png
+  artifactKey: Guid(4d6624c79610b4cd0afc4ac905c6de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_21.png using Guid(4d6624c79610b4cd0afc4ac905c6de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d4efe8b3f1138037611b39d48440fd') in 0.006231 seconds
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_20.png
+  artifactKey: Guid(322e471c5131442f7b8dc2babea6532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_20.png using Guid(322e471c5131442f7b8dc2babea6532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc971f96a10511702fef5acf3e8abe27') in 0.006178 seconds
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_14.png
+  artifactKey: Guid(d066353759a9d48499df1da1d176fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_14.png using Guid(d066353759a9d48499df1da1d176fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa655ea00afc5669204f972859d7107') in 0.005852 seconds
+  Import took 0.008473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_31.png
+  artifactKey: Guid(b920a12489c2c429ea1f3986d82a5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_31.png using Guid(b920a12489c2c429ea1f3986d82a5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdab7b76cdc993c896d1262e3fffd01') in 0.005508 seconds
+  Import took 0.008003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_24.png
+  artifactKey: Guid(505fb33a0a2244a8c9f8a11ae4149ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_24.png using Guid(505fb33a0a2244a8c9f8a11ae4149ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990c62bec62f0b9b9e736495fb28668c') in 0.007866 seconds
+  Import took 0.010951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_22.png
+  artifactKey: Guid(3b5b5d0ebfd2e4ed2890363941adfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_22.png using Guid(3b5b5d0ebfd2e4ed2890363941adfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb4c2f99f54faff59a8cee123c81a23') in 0.006268 seconds
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_30.png
+  artifactKey: Guid(fe74ad292b5d64bb4aed078f356defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_30.png using Guid(fe74ad292b5d64bb4aed078f356defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4755f51056dc0b112e08d5b3f29ef433') in 0.005622 seconds
+  Import took 0.008099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_10.png
+  artifactKey: Guid(8b29dd87509294b6b96ee798b4433703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_10.png using Guid(8b29dd87509294b6b96ee798b4433703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c5e50337ad4ff80fef6f61f37b6c1d') in 0.007653 seconds
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_11.png
+  artifactKey: Guid(eaf94efd09b84441fa4efc6d296e41a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_11.png using Guid(eaf94efd09b84441fa4efc6d296e41a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5739df22e7427511dffebeddb1ffa29') in 0.005611 seconds
+  Import took 0.008112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_16.png
+  artifactKey: Guid(8e0b1e77b50244b33b4921ffbd7734f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_16.png using Guid(8e0b1e77b50244b33b4921ffbd7734f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a628363257ebdaa738a1420399efc9') in 0.007456 seconds
+  Import took 0.010591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_28.png
+  artifactKey: Guid(43f53749e9ba04c63ad6be6b8dc74e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_28.png using Guid(43f53749e9ba04c63ad6be6b8dc74e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0987137c0565c66bfadd8a447befe7a4') in 0.007149 seconds
+  Import took 0.010654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_17.png
+  artifactKey: Guid(25de0a093208b4d46ad839fa3ad58966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_17.png using Guid(25de0a093208b4d46ad839fa3ad58966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be310d601cd9a5aa7a1ea7ba42d2b97e') in 0.006712 seconds
+  Import took 0.010100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_18.png
+  artifactKey: Guid(aa54d9c89f74e42ecb6c41a50621e2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_18.png using Guid(aa54d9c89f74e42ecb6c41a50621e2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b8209377597f280178410c941e2f2f') in 0.007084 seconds
+  Import took 0.010151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_12.png
+  artifactKey: Guid(23c55391bbb2549fb89125f2c2af4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_12.png using Guid(23c55391bbb2549fb89125f2c2af4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9dcdb32847e273b57f91f6d723ff84') in 0.005605 seconds
+  Import took 0.008234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_02.png
+  artifactKey: Guid(10a273c4c0e4f4d9282cfc7dbb3ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_02.png using Guid(10a273c4c0e4f4d9282cfc7dbb3ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62581b08096750b8be1922f48a08a99') in 0.006419 seconds
+  Import took 0.009289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_08.png
+  artifactKey: Guid(6384c522f23054c26bb9eac87d890c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_08.png using Guid(6384c522f23054c26bb9eac87d890c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae00eaae05687c801ae3cbd4280d13d') in 0.008103 seconds
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_15.png
+  artifactKey: Guid(b8f8d46b27aa14cb9bc441f441d0b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_15.png using Guid(b8f8d46b27aa14cb9bc441f441d0b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc85f4443433aa8ef973c2a0da35c5c') in 0.005454 seconds
+  Import took 0.007863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_38.png
+  artifactKey: Guid(20d394ddad51e42fbb4045627bd7f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_38.png using Guid(20d394ddad51e42fbb4045627bd7f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081dab5dc3aacafd661f9d9337855f6b') in 0.005719 seconds
+  Import took 0.008190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_29.png
+  artifactKey: Guid(46aede11be4224e33b0d6d8d9357ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_29.png using Guid(46aede11be4224e33b0d6d8d9357ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3317355e76f07b0870e02977002ba758') in 0.005233 seconds
+  Import took 0.007732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_40.png
+  artifactKey: Guid(90a8e565ce4d54ee59bb94beff8a708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_40.png using Guid(90a8e565ce4d54ee59bb94beff8a708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0677d2bb1a81be1f99ee985e1449c') in 0.005264 seconds
+  Import took 0.007804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_34.png
+  artifactKey: Guid(cda327c2cda7048a3b5d27c734109844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_34.png using Guid(cda327c2cda7048a3b5d27c734109844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438527bb8e40f59d197206e98832ff5d') in 0.006624 seconds
+  Import took 0.009291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_05.png
+  artifactKey: Guid(847be9aaaffbe49438332b36720c5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_05.png using Guid(847be9aaaffbe49438332b36720c5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4302dbdd40dfca5aa288d795c4a39f') in 0.005294 seconds
+  Import took 0.007702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_13.png
+  artifactKey: Guid(01e3a548b8b03443fad13296d7745764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_13.png using Guid(01e3a548b8b03443fad13296d7745764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd695300166698e394fa1aaf56c09205f') in 0.005239 seconds
+  Import took 0.007518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_19.png
+  artifactKey: Guid(22520c76c47184990bbc229b4e835a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_19.png using Guid(22520c76c47184990bbc229b4e835a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b432de26bde5826e26110e0d32dfe06') in 0.007163 seconds
+  Import took 0.009606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_23.png
+  artifactKey: Guid(87f20e642a0344953a478824d3ebdcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_23.png using Guid(87f20e642a0344953a478824d3ebdcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baad5f9599cd46c5ee131af7b9915e2') in 0.005083 seconds
+  Import took 0.007413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_06.png
+  artifactKey: Guid(7027e24cf52e14767af8db52efd828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_06.png using Guid(7027e24cf52e14767af8db52efd828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2933f41ae06f9312810a653971175323') in 0.005814 seconds
+  Import took 0.008746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_33.png
+  artifactKey: Guid(2202e858716154c8cac00de538e5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_33.png using Guid(2202e858716154c8cac00de538e5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b68eeb03b94f871179d93bbf71c14') in 0.007053 seconds
+  Import took 0.009894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_07.png
+  artifactKey: Guid(d511ec131a1174902a20128f3fa90645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_07.png using Guid(d511ec131a1174902a20128f3fa90645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7985a6a5f0374fee93c2aba5a19bec') in 0.005771 seconds
+  Import took 0.008384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_35.png
+  artifactKey: Guid(d51700940c5c04eb488d7aeddd6c90c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_35.png using Guid(d51700940c5c04eb488d7aeddd6c90c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79abd08f98debf4cee0af3658227964b') in 0.005457 seconds
+  Import took 0.008137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_36.png
+  artifactKey: Guid(1c527b8295dd24f5aa78cca973e16322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_36.png using Guid(1c527b8295dd24f5aa78cca973e16322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8aa7b0d3cb97814b2da337fbcf7eb5') in 0.005325 seconds
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_27.png
+  artifactKey: Guid(e3958dcd55edb4d6d90a9ac0b23b6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_27.png using Guid(e3958dcd55edb4d6d90a9ac0b23b6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a303f7b5bcc55c04cf7259825a4d8a83') in 0.005464 seconds
+  Import took 0.007971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.964088 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_01.png
+  artifactKey: Guid(d57659605921b4bfeb2369125c4daa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_01.png using Guid(d57659605921b4bfeb2369125c4daa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be2f3fac960587e7be86e3be7f057a2') in 0.008509 seconds
+  Import took 0.011337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_39.png
+  artifactKey: Guid(130683add62fb42ecbc4e352f19f22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_39.png using Guid(130683add62fb42ecbc4e352f19f22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec225a958781d5962ddcd32005cbe2a') in 0.005507 seconds
+  Import took 0.008026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_26.png
+  artifactKey: Guid(847d411737e3c421ca5a6f7496aa6a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_26.png using Guid(847d411737e3c421ca5a6f7496aa6a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbe08f769e958bee85251d89c018d7') in 0.005208 seconds
+  Import took 0.007371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_32.png
+  artifactKey: Guid(90edb20fd24d14bf9836cc7a19440f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_32.png using Guid(90edb20fd24d14bf9836cc7a19440f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9f9e8fcc2962ab6f238a2dc538d98') in 0.005061 seconds
+  Import took 0.007286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_25.png
+  artifactKey: Guid(ccd392dcbf1c54ffcbc7ac66ce6b597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_25.png using Guid(ccd392dcbf1c54ffcbc7ac66ce6b597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2801fd23be35e7d26f84f74f2c1bae9') in 0.006210 seconds
+  Import took 0.008671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_03.png
+  artifactKey: Guid(72851541978484b6181a47176c5e1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_03.png using Guid(72851541978484b6181a47176c5e1700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f59fab2553a59aa63e75e5ca05b89') in 0.005347 seconds
+  Import took 0.007610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_37.png
+  artifactKey: Guid(8053d12509056401d84714dc0d7c74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_37.png using Guid(8053d12509056401d84714dc0d7c74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410640b937e05a7031c7b4a1f1f8b8de') in 0.006240 seconds
+  Import took 0.008756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_04.png
+  artifactKey: Guid(2ad2c8a691303495cb1a4ddeda029649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_04.png using Guid(2ad2c8a691303495cb1a4ddeda029649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa2c42eabe398a60a3bb4e5e1df497b') in 0.005374 seconds
+  Import took 0.007799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_09.png
+  artifactKey: Guid(0a11d3a808c144620a9fb7d92ee41b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_09.png using Guid(0a11d3a808c144620a9fb7d92ee41b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779abc5801f94d675bbf826e3d6789d3') in 0.008294 seconds
+  Import took 0.010824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_21.png
+  artifactKey: Guid(4d6624c79610b4cd0afc4ac905c6de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_21.png using Guid(4d6624c79610b4cd0afc4ac905c6de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8e87daedfb1a127529b57675f39dba') in 0.005361 seconds
+  Import took 0.007818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_20.png
+  artifactKey: Guid(322e471c5131442f7b8dc2babea6532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_20.png using Guid(322e471c5131442f7b8dc2babea6532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812a310202bffd02a0a70f4557e3423b') in 0.006114 seconds
+  Import took 0.008367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_14.png
+  artifactKey: Guid(d066353759a9d48499df1da1d176fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_14.png using Guid(d066353759a9d48499df1da1d176fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e4eb4e9157bb8757a5b7dad7495883') in 0.005221 seconds
+  Import took 0.007633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_31.png
+  artifactKey: Guid(b920a12489c2c429ea1f3986d82a5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_31.png using Guid(b920a12489c2c429ea1f3986d82a5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a51f9f9932e5cc592cf487ca1fe0a') in 0.005347 seconds
+  Import took 0.007918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_24.png
+  artifactKey: Guid(505fb33a0a2244a8c9f8a11ae4149ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_24.png using Guid(505fb33a0a2244a8c9f8a11ae4149ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46fa8e7c4ba0c9bbca08dbb0da484ec') in 0.005644 seconds
+  Import took 0.008003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_22.png
+  artifactKey: Guid(3b5b5d0ebfd2e4ed2890363941adfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_22.png using Guid(3b5b5d0ebfd2e4ed2890363941adfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5533c3b3271073ed29df00072ca017ad') in 0.005306 seconds
+  Import took 0.007724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_30.png
+  artifactKey: Guid(fe74ad292b5d64bb4aed078f356defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_30.png using Guid(fe74ad292b5d64bb4aed078f356defff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e8a0de2c94f888b42a9bca0243b457') in 0.005564 seconds
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_10.png
+  artifactKey: Guid(8b29dd87509294b6b96ee798b4433703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_10.png using Guid(8b29dd87509294b6b96ee798b4433703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb26fb49857d00bf6fec496185dc166a') in 0.007100 seconds
+  Import took 0.009633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_11.png
+  artifactKey: Guid(eaf94efd09b84441fa4efc6d296e41a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_11.png using Guid(eaf94efd09b84441fa4efc6d296e41a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f993e50042e9bdfa79f280d2a4360b66') in 0.005770 seconds
+  Import took 0.008223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_16.png
+  artifactKey: Guid(8e0b1e77b50244b33b4921ffbd7734f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_16.png using Guid(8e0b1e77b50244b33b4921ffbd7734f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb9098751429f996447712a74f3373e') in 0.005280 seconds
+  Import took 0.007604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_28.png
+  artifactKey: Guid(43f53749e9ba04c63ad6be6b8dc74e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_28.png using Guid(43f53749e9ba04c63ad6be6b8dc74e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ec80f3a99ee24ff03fea8ce2c710d') in 0.007078 seconds
+  Import took 0.009540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_17.png
+  artifactKey: Guid(25de0a093208b4d46ad839fa3ad58966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_17.png using Guid(25de0a093208b4d46ad839fa3ad58966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f204eff2545c913ef3e0e44dbfa86ee6') in 0.005244 seconds
+  Import took 0.007601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_18.png
+  artifactKey: Guid(aa54d9c89f74e42ecb6c41a50621e2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_18.png using Guid(aa54d9c89f74e42ecb6c41a50621e2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ce43c130830fc8ac20ca770393425') in 0.006001 seconds
+  Import took 0.008416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_12.png
+  artifactKey: Guid(23c55391bbb2549fb89125f2c2af4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_12.png using Guid(23c55391bbb2549fb89125f2c2af4b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d303f1f124dfd1d93a84b32ff7ce87') in 0.005948 seconds
+  Import took 0.008457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_02.png
+  artifactKey: Guid(10a273c4c0e4f4d9282cfc7dbb3ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_02.png using Guid(10a273c4c0e4f4d9282cfc7dbb3ae772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6742d629e78bc118ffe5c45a21cf62') in 0.005909 seconds
+  Import took 0.008246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_08.png
+  artifactKey: Guid(6384c522f23054c26bb9eac87d890c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_08.png using Guid(6384c522f23054c26bb9eac87d890c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be58f61f6334ab6c3e20cd66d8eebc49') in 0.007028 seconds
+  Import took 0.009353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_15.png
+  artifactKey: Guid(b8f8d46b27aa14cb9bc441f441d0b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_15.png using Guid(b8f8d46b27aa14cb9bc441f441d0b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a85b52f894b0f34c0d57c5cc1f337a3') in 0.005303 seconds
+  Import took 0.007661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_38.png
+  artifactKey: Guid(20d394ddad51e42fbb4045627bd7f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_38.png using Guid(20d394ddad51e42fbb4045627bd7f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123f780c3a521b95abcdd1f5433b3d97') in 0.005709 seconds
+  Import took 0.008217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_29.png
+  artifactKey: Guid(46aede11be4224e33b0d6d8d9357ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_29.png using Guid(46aede11be4224e33b0d6d8d9357ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810407008b441f6f71ed5087d97b5049') in 0.005501 seconds
+  Import took 0.007829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_40.png
+  artifactKey: Guid(90a8e565ce4d54ee59bb94beff8a708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_40.png using Guid(90a8e565ce4d54ee59bb94beff8a708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb629b8c7d0312a380be549ecb4f26') in 0.005211 seconds
+  Import took 0.007584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_34.png
+  artifactKey: Guid(cda327c2cda7048a3b5d27c734109844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_34.png using Guid(cda327c2cda7048a3b5d27c734109844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2397692a1ee9533180d9e6c030b860e') in 0.005589 seconds
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_05.png
+  artifactKey: Guid(847be9aaaffbe49438332b36720c5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_05.png using Guid(847be9aaaffbe49438332b36720c5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2b228e337d22241986d0f93c55adea') in 0.005210 seconds
+  Import took 0.007617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_13.png
+  artifactKey: Guid(01e3a548b8b03443fad13296d7745764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_13.png using Guid(01e3a548b8b03443fad13296d7745764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839d0526199922f7f4d61bcfe9a0591f') in 0.005280 seconds
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_19.png
+  artifactKey: Guid(22520c76c47184990bbc229b4e835a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_19.png using Guid(22520c76c47184990bbc229b4e835a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4f4b96d0cdc6ec9198ba16de3dba0c') in 0.007208 seconds
+  Import took 0.009657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_23.png
+  artifactKey: Guid(87f20e642a0344953a478824d3ebdcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_23.png using Guid(87f20e642a0344953a478824d3ebdcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba509145875190a76a97aea7c74091b3') in 0.005573 seconds
+  Import took 0.008160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_06.png
+  artifactKey: Guid(7027e24cf52e14767af8db52efd828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_06.png using Guid(7027e24cf52e14767af8db52efd828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284145621bac3ebd1e4e6c5fad98e050') in 0.006277 seconds
+  Import took 0.008742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_33.png
+  artifactKey: Guid(2202e858716154c8cac00de538e5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_33.png using Guid(2202e858716154c8cac00de538e5f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cbdfbb531e09ab12c5f9dafb4f209c') in 0.005255 seconds
+  Import took 0.007534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_07.png
+  artifactKey: Guid(d511ec131a1174902a20128f3fa90645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_07.png using Guid(d511ec131a1174902a20128f3fa90645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df20a95463a79a12fa095b3ee2132e7') in 0.005229 seconds
+  Import took 0.007606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_35.png
+  artifactKey: Guid(d51700940c5c04eb488d7aeddd6c90c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_35.png using Guid(d51700940c5c04eb488d7aeddd6c90c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2167c8a52b9123b6e84dc10f42884ab') in 0.005574 seconds
+  Import took 0.008115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_36.png
+  artifactKey: Guid(1c527b8295dd24f5aa78cca973e16322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_36.png using Guid(1c527b8295dd24f5aa78cca973e16322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a948048642a01e962bd8d49ae35d6f9') in 0.005064 seconds
+  Import took 0.007308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Plains/Flat/plains-sliced_27.png
+  artifactKey: Guid(e3958dcd55edb4d6d90a9ac0b23b6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Flat/plains-sliced_27.png using Guid(e3958dcd55edb4d6d90a9ac0b23b6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acafdf530c3751d5f1bb81a303084d0a') in 0.005110 seconds
+  Import took 0.007323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.129863 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fdf307dfee96ea3eb8ec2c67f6cae2') in 1.077972 seconds
+  Import took 1.081104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.062202 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4ba332772b0e315b18466befb076f0') in 0.003819 seconds
+  Import took 0.006980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.236541 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c3896c2d3dfea5709fd70d5810b243') in 0.004012 seconds
+  Import took 0.007127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.334205 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741a7f0b97c03d22f9c6a7ec7f995682') in 0.004215 seconds
+  Import took 0.007507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.469696 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98f31e306641d070caf619ed99b8bc7') in 0.003737 seconds
+  Import took 0.007156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.227869 seconds.
+  path: Assets/Pallet/Plains.prefab
+  artifactKey: Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.prefab using Guid(ac866c4abd32b40d585e591b41424fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88092cabc97cf249bac24c2cdfac3238') in 0.003959 seconds
+  Import took 0.007488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.607814 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968455d4047dad701c354734a61fd0f6') in 0.004367 seconds
+  Import took 0.007545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.534794 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d8e6c3abe28897ffe1d8f847ae3324') in 0.003754 seconds
+  Import took 0.007071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847231 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af84f391a03530267a48c1d0a6df938') in 0.003342 seconds
+  Import took 0.006604 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.3 MB.
+System memory in use after: 159.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 2.514704 ms (FindLiveObjects: 0.235034 ms CreateObjectMapping: 0.085352 ms MarkObjects: 1.820458 ms  DeleteObjects: 0.372494 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.470741 seconds.
+  path: Assets/Pallet/Plains.asset
+  artifactKey: Guid(1eeeb8df682a9441db8f351966ed327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.asset using Guid(1eeeb8df682a9441db8f351966ed327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a737cf2a3835399c1f974bb9bde5580c') in 0.325242 seconds
+  Import took 0.328307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.398480 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_41.png
+  artifactKey: Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_41.png using Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c946e319320d87cc203941796b0eeb8') in 0.043520 seconds
+  Import took 0.046495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_42.png
+  artifactKey: Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_42.png using Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454378808d9f0c8d06177a0b678910ea') in 0.006529 seconds
+  Import took 0.009124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_41.png
+  artifactKey: Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_41.png using Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c946e319320d87cc203941796b0eeb8') in 0.005691 seconds
+  Import took 0.008269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002316 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_42.png
+  artifactKey: Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_42.png using Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454378808d9f0c8d06177a0b678910ea') in 0.006101 seconds
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223786 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_43.png
+  artifactKey: Guid(a76baf46149f4459e8b82bce50467d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_43.png using Guid(a76baf46149f4459e8b82bce50467d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e2ab25def45b8f23f510bcc5b9f851') in 0.005778 seconds
+  Import took 0.009119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_44.png
+  artifactKey: Guid(aa63a498ccbca496ab2fce0528114858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_44.png using Guid(aa63a498ccbca496ab2fce0528114858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d11a49a67b1879a78da1b455966750') in 0.005934 seconds
+  Import took 0.008701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_45.png
+  artifactKey: Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_45.png using Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49741f39a9f7077f9f1dae2ff53d16ee') in 0.005362 seconds
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_48.png
+  artifactKey: Guid(d47eb2482975b470e9df5cfb6ac0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_48.png using Guid(d47eb2482975b470e9df5cfb6ac0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949836d13a0d0c6703a6a4d838ba5d19') in 0.005343 seconds
+  Import took 0.007864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_45.png
+  artifactKey: Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_45.png using Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49741f39a9f7077f9f1dae2ff53d16ee') in 0.007395 seconds
+  Import took 0.009977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_47.png
+  artifactKey: Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_47.png using Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9c0340d983b488ac023e3f79b7e65') in 0.005355 seconds
+  Import took 0.007772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_46.png
+  artifactKey: Guid(4e128de8a3220447998f8f39f97b9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_46.png using Guid(4e128de8a3220447998f8f39f97b9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203249461a7e9a18b1f2503e38095dd1') in 0.005266 seconds
+  Import took 0.007475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_49.png
+  artifactKey: Guid(e205521d3a4584bad8e95cc943788072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_49.png using Guid(e205521d3a4584bad8e95cc943788072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1183af2789a67a7f2516db040364064d') in 0.005209 seconds
+  Import took 0.007470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042896 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_47.png
+  artifactKey: Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_47.png using Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9c0340d983b488ac023e3f79b7e65') in 0.006828 seconds
+  Import took 0.010181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.505916 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_50.png
+  artifactKey: Guid(9082f77b60f114332ac9f29efbe2b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_50.png using Guid(9082f77b60f114332ac9f29efbe2b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9b0892eb4667c6443f31efda32321b') in 0.006451 seconds
+  Import took 0.009539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_56.png
+  artifactKey: Guid(6192280cf711d4be992790ae2f636cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_56.png using Guid(6192280cf711d4be992790ae2f636cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44b30b604b6a0acdf5df1808a357b58') in 0.006310 seconds
+  Import took 0.008978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_55.png
+  artifactKey: Guid(4cf3d3964318e4eea8073d80c3a8bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_55.png using Guid(4cf3d3964318e4eea8073d80c3a8bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e19ce997f631e76c80f2ebae57566f') in 0.006455 seconds
+  Import took 0.009084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_52.png
+  artifactKey: Guid(78c59a4250d76495a8a7e73b445ece9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_52.png using Guid(78c59a4250d76495a8a7e73b445ece9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250217e969ec4d03efa22123522cfc2') in 0.008173 seconds
+  Import took 0.011220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_54.png
+  artifactKey: Guid(7c1f64a1a42624bb18e0862bad3c290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_54.png using Guid(7c1f64a1a42624bb18e0862bad3c290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fe2c673587b53923c78778a0825216') in 0.005628 seconds
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_53.png
+  artifactKey: Guid(8659a9bd5a36d40f5ac1a179c27ae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_53.png using Guid(8659a9bd5a36d40f5ac1a179c27ae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a0bb0cb7657d4c5f172b2c93a074fd') in 0.005956 seconds
+  Import took 0.008643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_51.png
+  artifactKey: Guid(e8aa97d9f6f004c33a395d12a10528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_51.png using Guid(e8aa97d9f6f004c33a395d12a10528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041dc120e092d0c139e526da1280dcef') in 0.006973 seconds
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778833 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_57.png
+  artifactKey: Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_57.png using Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34d6d8f37834207abf57e047e6cfd14') in 0.007210 seconds
+  Import took 0.009820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_62.png
+  artifactKey: Guid(7cde9c3003c5f40baa20e5fe1748a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_62.png using Guid(7cde9c3003c5f40baa20e5fe1748a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3234c17f84f2485c8b821442700921d8') in 0.005888 seconds
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_69.png
+  artifactKey: Guid(73b5b2bd80152434389e9dff36cb2bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_69.png using Guid(73b5b2bd80152434389e9dff36cb2bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b904f566d38c6f1749393c942da7eeea') in 0.006465 seconds
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_67.png
+  artifactKey: Guid(2fd601e156bc5408e927587e55c99cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_67.png using Guid(2fd601e156bc5408e927587e55c99cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e394eb264be4b5a33394b824a20659') in 0.005989 seconds
+  Import took 0.008671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_66.png
+  artifactKey: Guid(383d4df4815c34265ba8819b2243623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_66.png using Guid(383d4df4815c34265ba8819b2243623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d8b1e6f96568ef56e331a4daec3b1f') in 0.007254 seconds
+  Import took 0.009775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_58.png
+  artifactKey: Guid(d625bbae67b9146f4bf148225ed37fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_58.png using Guid(d625bbae67b9146f4bf148225ed37fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a1c628225dcb74722efcc320dbd650') in 0.005643 seconds
+  Import took 0.008214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_74.png
+  artifactKey: Guid(e1ab97c036e0f42948339ae7ccafe594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_74.png using Guid(e1ab97c036e0f42948339ae7ccafe594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42f611f5be0c74c10da000b12744f46') in 0.006588 seconds
+  Import took 0.009215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-border-vertical.png
+  artifactKey: Guid(9f01b32e1265842a8ad55a4483d583c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-border-vertical.png using Guid(9f01b32e1265842a8ad55a4483d583c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5416a27d302fd939e73a26648c8cccd') in 0.005404 seconds
+  Import took 0.007975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-full.png
+  artifactKey: Guid(83b9904c54dbe4b8ba227406b0a259c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-full.png using Guid(83b9904c54dbe4b8ba227406b0a259c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079dfd884c5bf5d0ab95d1bf649dd9dd') in 0.005374 seconds
+  Import took 0.008085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/stairs-collider-a.png
+  artifactKey: Guid(97367e8fd5a5c405fa7cda4d1139ad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/stairs-collider-a.png using Guid(97367e8fd5a5c405fa7cda4d1139ad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ab9b84571da757a0190a4f6f3aa207') in 0.005464 seconds
+  Import took 0.007998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/stairs-border.png
+  artifactKey: Guid(063edbe48872b4ab39d61247bfbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/stairs-border.png using Guid(063edbe48872b4ab39d61247bfbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c19199cbf637f3ea170a39d68ed6e9a') in 0.005788 seconds
+  Import took 0.008378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-half-3.png
+  artifactKey: Guid(a776d11a6af034008bdcb032763c4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-half-3.png using Guid(a776d11a6af034008bdcb032763c4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e7ba0f10b516bf9358e7767037a8c6') in 0.005495 seconds
+  Import took 0.008082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-half-1.png
+  artifactKey: Guid(4a84cc2d487664161aacd5a7f6e84df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-half-1.png using Guid(4a84cc2d487664161aacd5a7f6e84df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e66f0b4198ffb99e9ad5b4a53ddcaa') in 0.006986 seconds
+  Import took 0.009542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-half-4.png
+  artifactKey: Guid(cd8a00ab8c9644c449810e6556ee77f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-half-4.png using Guid(cd8a00ab8c9644c449810e6556ee77f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f53dedc269b636fb841fa1c56920a73') in 0.005519 seconds
+  Import took 0.008165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-wall-2.png
+  artifactKey: Guid(2abfa0b69193b46c4b7848a29c8a3c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-wall-2.png using Guid(2abfa0b69193b46c4b7848a29c8a3c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b87ce6823758c24e120eba6f72ba9b') in 0.005169 seconds
+  Import took 0.007640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_71.png
+  artifactKey: Guid(8f73478c45edb4947ad1432f1b266bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_71.png using Guid(8f73478c45edb4947ad1432f1b266bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec5c2fe28f25eea29e41946b41a425') in 0.005418 seconds
+  Import took 0.007818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-border-left.png
+  artifactKey: Guid(6b9080908d34f4ed4b111f8752045ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-border-left.png using Guid(6b9080908d34f4ed4b111f8752045ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d27de2f25754576e3ff00ccfc15fec') in 0.006467 seconds
+  Import took 0.009075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-border-top.png
+  artifactKey: Guid(6b19fa030e22a4aa7a4ebc2029911cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-border-top.png using Guid(6b19fa030e22a4aa7a4ebc2029911cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27764558fb14d5d80cb4e474631d3788') in 0.005816 seconds
+  Import took 0.008291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_72.png
+  artifactKey: Guid(85b1af17fd8564180bf4380eea5b55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_72.png using Guid(85b1af17fd8564180bf4380eea5b55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b4d1525e7b56f5b071dd7527fd6376') in 0.005238 seconds
+  Import took 0.007565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_59.png
+  artifactKey: Guid(6c8c707e2bd1342f8aa1fd3f9cfad8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_59.png using Guid(6c8c707e2bd1342f8aa1fd3f9cfad8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2017ac01d6b86fe62acc90fa5c65ad56') in 0.005527 seconds
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_68.png
+  artifactKey: Guid(21f89aebe4763425ca13d0c2f179a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_68.png using Guid(21f89aebe4763425ca13d0c2f179a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be7bd1226652e6ddd60717ec955b084') in 0.007315 seconds
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_63.png
+  artifactKey: Guid(45ad800586b40419390eae8b39decadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_63.png using Guid(45ad800586b40419390eae8b39decadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f566e98860a3b6a2212dce5c39bdfe') in 0.005533 seconds
+  Import took 0.008145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/slope-a.png
+  artifactKey: Guid(3b9c38445f15341d3a30049b1e724d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/slope-a.png using Guid(3b9c38445f15341d3a30049b1e724d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a1a541badfc5bb9658db2cb6abdcf0') in 0.005678 seconds
+  Import took 0.008404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-border-horizontal.png
+  artifactKey: Guid(b6548471931e44419bb578976f69c7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-border-horizontal.png using Guid(b6548471931e44419bb578976f69c7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0e591c9777139aeb6e8ebe89dc842') in 0.005612 seconds
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_57.png
+  artifactKey: Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_57.png using Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34d6d8f37834207abf57e047e6cfd14') in 0.005251 seconds
+  Import took 0.007915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_60.png
+  artifactKey: Guid(68fc7af14fcc147d8b0a8b4179ebf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_60.png using Guid(68fc7af14fcc147d8b0a8b4179ebf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc66b6acbddc424dfcf7967c754224e') in 0.005454 seconds
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-wall-1.png
+  artifactKey: Guid(e308331e58a9f474a89006337eb33d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-wall-1.png using Guid(e308331e58a9f474a89006337eb33d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d8a3b091c5bb635ae8dc025a8165a7') in 0.005368 seconds
+  Import took 0.007879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_65.png
+  artifactKey: Guid(d3a68b3bde89d4d5f83e4908dd93e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_65.png using Guid(d3a68b3bde89d4d5f83e4908dd93e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcbb8ad8c0268ad1ce072e3d11982ab') in 0.006363 seconds
+  Import took 0.008978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-half-2.png
+  artifactKey: Guid(ed8786350b43746719629d0e1c8d5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-half-2.png using Guid(ed8786350b43746719629d0e1c8d5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c648476b6ff90f7482f674fd87efc4e') in 0.007431 seconds
+  Import took 0.010163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/Colliders/ColliderSprites/tile-border-right.png
+  artifactKey: Guid(8b08bcd21cb8a42fba868f390b68099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Colliders/ColliderSprites/tile-border-right.png using Guid(8b08bcd21cb8a42fba868f390b68099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed55a5eb4979e743c44e16c35da782e') in 0.005340 seconds
+  Import took 0.007803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_70.png
+  artifactKey: Guid(8c10debea542946bdabc68d3c2913428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_70.png using Guid(8c10debea542946bdabc68d3c2913428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852f91c1695fef925edf1702c773f420') in 0.005493 seconds
+  Import took 0.007932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_61.png
+  artifactKey: Guid(e895a154a94c14630a62afa7c66542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_61.png using Guid(e895a154a94c14630a62afa7c66542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68857f5824fc668a1870e57df8253603') in 0.005251 seconds
+  Import took 0.007715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Plains/Decoration/plains-sliced_64.png
+  artifactKey: Guid(f018ab0effa0c476999fac7d14ae6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Decoration/plains-sliced_64.png using Guid(f018ab0effa0c476999fac7d14ae6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4518d17c9865e3e1e2bf843a19beb9') in 0.005749 seconds
+  Import took 0.008216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.727750 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab75f1e471ce73e68617f2747001b42c') in 0.009219 seconds
+  Import took 0.012704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 730.810200 seconds.
+  path: Assets/Pallet/Ground.asset
+  artifactKey: Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Ground.asset using Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ee5da3a91f5a557e761cfef1a8c420') in 0.004304 seconds
+  Import took 0.007554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028239 seconds.
+  path: Assets/Pallet/Ground.asset
+  artifactKey: Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Ground.asset using Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ee5da3a91f5a557e761cfef1a8c420') in 0.003535 seconds
+  Import took 0.006243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.870699 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea087253e0de1c7af5303f32b9279d') in 0.003989 seconds
+  Import took 0.007316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.695615 seconds.
+  path: Assets/Pallet/Ground.asset
+  artifactKey: Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Ground.asset using Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28591eb122c83feebf8f4c668fa57561') in 0.080973 seconds
+  Import took 0.084286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Pallet/Plains.asset
+  artifactKey: Guid(1eeeb8df682a9441db8f351966ed327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Plains.asset using Guid(1eeeb8df682a9441db8f351966ed327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db86f8907730937cbd0a35d43decf18') in 0.008304 seconds
+  Import took 0.011032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 443.396184 seconds.
+  path: Assets/Pallet/Ground.asset
+  artifactKey: Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Ground.asset using Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60de59a5209b57cdfc9cf811563a2a53') in 0.007736 seconds
+  Import took 0.010706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025852 seconds.
+  path: Assets/Pallet/Ground.asset
+  artifactKey: Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/Ground.asset using Guid(9e6dd019f28a14abea4ff83e49d20741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60de59a5209b57cdfc9cf811563a2a53') in 0.006012 seconds
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.602215 seconds.
+  path: Assets/Pallet/MountainsRule.asset
+  artifactKey: Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/MountainsRule.asset using Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546a7e3c70ceca83ad679db075acd773') in 0.004270 seconds
+  Import took 0.007432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028144 seconds.
+  path: Assets/Pallet/MountainsRule.asset
+  artifactKey: Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/MountainsRule.asset using Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546a7e3c70ceca83ad679db075acd773') in 0.003591 seconds
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.602687 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_41.png
+  artifactKey: Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_41.png using Guid(315b173ea8e8641ea853e6b15c3154e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ed773c3a90d68d647dc899138f1a03') in 0.006420 seconds
+  Import took 0.009255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025335 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_42.png
+  artifactKey: Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_42.png using Guid(5c3a9258b77cf4d8eb584c2f46d22d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c04ca77c3bfa4b2d0f0e82e1bfef6c') in 0.007978 seconds
+  Import took 0.010896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_44.png
+  artifactKey: Guid(aa63a498ccbca496ab2fce0528114858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_44.png using Guid(aa63a498ccbca496ab2fce0528114858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5959ede640ffbc993ab5e80414e5d5') in 0.005931 seconds
+  Import took 0.008639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_56.png
+  artifactKey: Guid(6192280cf711d4be992790ae2f636cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_56.png using Guid(6192280cf711d4be992790ae2f636cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63808dc538f19179d4e204eb75f27970') in 0.006008 seconds
+  Import took 0.008635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_45.png
+  artifactKey: Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_45.png using Guid(d5d437cf750aa430286371e0bc4bb7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4823ae67b9f44a54e13dee0b52be5f33') in 0.007897 seconds
+  Import took 0.010489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_50.png
+  artifactKey: Guid(9082f77b60f114332ac9f29efbe2b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_50.png using Guid(9082f77b60f114332ac9f29efbe2b8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6dc7ddc539d66b6f629160dcb8b2d2') in 0.007166 seconds
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_71.png
+  artifactKey: Guid(8f73478c45edb4947ad1432f1b266bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_71.png using Guid(8f73478c45edb4947ad1432f1b266bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e949c688e8ed50ee9a20663b0be5188e') in 0.005406 seconds
+  Import took 0.008000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_43.png
+  artifactKey: Guid(a76baf46149f4459e8b82bce50467d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_43.png using Guid(a76baf46149f4459e8b82bce50467d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b26bdc99d832883f355b374dbe0aab9') in 0.006576 seconds
+  Import took 0.009229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_62.png
+  artifactKey: Guid(7cde9c3003c5f40baa20e5fe1748a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_62.png using Guid(7cde9c3003c5f40baa20e5fe1748a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50640668b57ec531a02158fea13f077c') in 0.005361 seconds
+  Import took 0.007873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_48.png
+  artifactKey: Guid(d47eb2482975b470e9df5cfb6ac0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_48.png using Guid(d47eb2482975b470e9df5cfb6ac0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa371aad70fdf7c49fccda961368de29') in 0.007876 seconds
+  Import took 0.010473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_58.png
+  artifactKey: Guid(d625bbae67b9146f4bf148225ed37fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_58.png using Guid(d625bbae67b9146f4bf148225ed37fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c062f96579d1e6ef764ac9d9c18d227c') in 0.005372 seconds
+  Import took 0.007837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_72.png
+  artifactKey: Guid(85b1af17fd8564180bf4380eea5b55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_72.png using Guid(85b1af17fd8564180bf4380eea5b55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bd97454b2d4a5ee9c7329f41a9a860') in 0.005682 seconds
+  Import took 0.008347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_47.png
+  artifactKey: Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_47.png using Guid(7fa35418c264346d5bff8a689c4b0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de5a7ee537cc492ebd06a4596d0d6f') in 0.005136 seconds
+  Import took 0.007713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_55.png
+  artifactKey: Guid(4cf3d3964318e4eea8073d80c3a8bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_55.png using Guid(4cf3d3964318e4eea8073d80c3a8bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349d041d0e06a3d09cf03a9594849aca') in 0.005543 seconds
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_52.png
+  artifactKey: Guid(78c59a4250d76495a8a7e73b445ece9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_52.png using Guid(78c59a4250d76495a8a7e73b445ece9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b5f726b8fd310f9357dcf04d2d7d82') in 0.005395 seconds
+  Import took 0.008041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_59.png
+  artifactKey: Guid(6c8c707e2bd1342f8aa1fd3f9cfad8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_59.png using Guid(6c8c707e2bd1342f8aa1fd3f9cfad8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ef21d746e84f8fea016df773234538') in 0.005645 seconds
+  Import took 0.008614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_54.png
+  artifactKey: Guid(7c1f64a1a42624bb18e0862bad3c290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_54.png using Guid(7c1f64a1a42624bb18e0862bad3c290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a77969e79b6559d1a3aac508803914') in 0.005483 seconds
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_57.png
+  artifactKey: Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_57.png using Guid(8a4a72335530542d69338b3a777258a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3887534d7cc63572616f852efc2b669f') in 0.007309 seconds
+  Import took 0.009885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_60.png
+  artifactKey: Guid(68fc7af14fcc147d8b0a8b4179ebf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_60.png using Guid(68fc7af14fcc147d8b0a8b4179ebf2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b115d2638aebc7203976d2beacee419') in 0.005681 seconds
+  Import took 0.008262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_46.png
+  artifactKey: Guid(4e128de8a3220447998f8f39f97b9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_46.png using Guid(4e128de8a3220447998f8f39f97b9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c8655aef2db7441aafb19dd243d05a') in 0.005367 seconds
+  Import took 0.007927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_53.png
+  artifactKey: Guid(8659a9bd5a36d40f5ac1a179c27ae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_53.png using Guid(8659a9bd5a36d40f5ac1a179c27ae13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230f13c699f0fc7a761a6a5985e3797f') in 0.005476 seconds
+  Import took 0.007947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_51.png
+  artifactKey: Guid(e8aa97d9f6f004c33a395d12a10528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_51.png using Guid(e8aa97d9f6f004c33a395d12a10528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f559ee1bcccb16bb5e12590cde8f73') in 0.005284 seconds
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_49.png
+  artifactKey: Guid(e205521d3a4584bad8e95cc943788072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_49.png using Guid(e205521d3a4584bad8e95cc943788072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e428d7d9286e6dc8637b562c78949d') in 0.006140 seconds
+  Import took 0.008716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Resources/Plains/Raised/plains-sliced_61.png
+  artifactKey: Guid(e895a154a94c14630a62afa7c66542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Plains/Raised/plains-sliced_61.png using Guid(e895a154a94c14630a62afa7c66542b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c70f145e48435672293ef39df14546') in 0.005387 seconds
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.317030 seconds.
+  path: Assets/Pallet/PlainRule.prefab
+  artifactKey: Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/PlainRule.prefab using Guid(0d16be8420ebb42858ffe0ce35a3d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d534d6d0a43cd7b9e277437c3847589') in 0.003539 seconds
+  Import took 0.006663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.515989 seconds.
+  path: Assets/Pallet/MountainsRule.asset
+  artifactKey: Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/MountainsRule.asset using Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7664bf4c6c3f25db979f42e2d6b941b') in 0.007894 seconds
+  Import took 0.010853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.416169 seconds.
+  path: Assets/Pallet/MountainsRule.asset
+  artifactKey: Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/MountainsRule.asset using Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f5579e06e45c05ea30f4b2ef49e6ed') in 0.008760 seconds
+  Import took 0.012209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.589213 seconds.
+  path: Assets/Pallet/MountainsRule.asset
+  artifactKey: Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallet/MountainsRule.asset using Guid(9eefaab77b0894436bf340ad37401114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78b8bcff3252e0afa260d08fde93ed0') in 0.009811 seconds
+  Import took 0.013018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1777.784931 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c0828d1b3dcd44638bbe1a56ac0f154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c0828d1b3dcd44638bbe1a56ac0f154c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937a4c60afda5b915c57ba0ae0ef0b54') in 0.002156 seconds
+  Import took 0.005214 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.9 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 2.307458 ms (FindLiveObjects: 0.165895 ms CreateObjectMapping: 0.054291 ms MarkObjects: 1.717540 ms  DeleteObjects: 0.368525 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.2 MB.
+System memory in use after: 166.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 2.198308 ms (FindLiveObjects: 0.211353 ms CreateObjectMapping: 0.064638 ms MarkObjects: 1.551835 ms  DeleteObjects: 0.369630 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.454601 seconds.
+  path: Assets/Scripts/Grids.cs
+  artifactKey: Guid(6c39ef2a4816544ada6870c754a7e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grids.cs using Guid(6c39ef2a4816544ada6870c754a7e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ad1f8865512e4d4cc73a326f5b701a') in 0.304837 seconds
+  Import took 0.307737 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.7 MB.
+System memory in use after: 171.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 2.134942 ms (FindLiveObjects: 0.200308 ms CreateObjectMapping: 0.080160 ms MarkObjects: 1.462970 ms  DeleteObjects: 0.390415 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.0 MB.
+System memory in use after: 171.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.311000 ms (FindLiveObjects: 0.222320 ms CreateObjectMapping: 0.071074 ms MarkObjects: 1.617658 ms  DeleteObjects: 0.398206 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 2.384586 ms (FindLiveObjects: 0.259247 ms CreateObjectMapping: 0.057799 ms MarkObjects: 1.575161 ms  DeleteObjects: 0.489464 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.6 MB.
+System memory in use after: 172.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.342395 ms (FindLiveObjects: 0.292679 ms CreateObjectMapping: 0.051495 ms MarkObjects: 1.634797 ms  DeleteObjects: 0.362572 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 2.144256 ms (FindLiveObjects: 0.239241 ms CreateObjectMapping: 0.082542 ms MarkObjects: 1.440723 ms  DeleteObjects: 0.380928 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.2 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.415581 ms (FindLiveObjects: 0.228905 ms CreateObjectMapping: 0.074478 ms MarkObjects: 1.664574 ms  DeleteObjects: 0.446328 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.5 MB.
+System memory in use after: 173.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 2.112863 ms (FindLiveObjects: 0.214228 ms CreateObjectMapping: 0.061927 ms MarkObjects: 1.442688 ms  DeleteObjects: 0.393198 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.8 MB.
+System memory in use after: 173.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.136558 ms (FindLiveObjects: 0.188405 ms CreateObjectMapping: 0.062919 ms MarkObjects: 1.493979 ms  DeleteObjects: 0.390267 ms)
+
